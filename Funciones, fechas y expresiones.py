@@ -50,3 +50,14 @@ import re
 texto = "tres tristes tigres comen trigo en un trigal"
 busqueda = re.sub(" ","-", texto)
 print(busqueda)
+
+#Excepciones
+variable = "Correcto"
+
+try:
+  print(variable)
+except:
+  print("la variable no está declarada")
+
+
+variable = "Corre
